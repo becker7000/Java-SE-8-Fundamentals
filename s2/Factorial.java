@@ -8,10 +8,14 @@ public class Factorial {
         // 3! = 3*2*1 = 6
         // 0! = 1
         Scanner scanner = new Scanner(System.in);
+        int natural;
 
-        System.out.print("\n\t Dame un natural entre 0 y 15: ");
-        // 1,2,3,4,...
-        int natural = scanner.nextInt(); scanner.nextLine();
+        do{
+            System.out.print("\n\t Dame un natural entre 0 y 20: ");
+            // 1,2,3,4,...
+            natural = scanner.nextInt(); scanner.nextLine();
+        }while (natural<1 || natural>20);
+
         // Nota: las multiplicaciones se inician en 1.
         long factorial=1; // long nos permite hasta 20!
 
