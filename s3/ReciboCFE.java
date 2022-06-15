@@ -9,6 +9,11 @@ public class ReciboCFE {
         this.consumo = consumo;
     }
 
+    public double getConsumo() {
+        double clone=consumo;
+        return clone;
+    }
+
     //Método para generar un reporte de consumo:
 
     public String generarReporte(){
