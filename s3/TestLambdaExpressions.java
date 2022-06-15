@@ -3,7 +3,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Locale;
 
-public class TestLamdaExpressions {
+public class TestLambdaExpressions {
 
     public static void main(String[] args) {
 
@@ -31,6 +31,7 @@ public class TestLamdaExpressions {
         });   // 30, 26, 34, 40
 
         usuarios.forEach( usuario -> System.out.println(usuario));
+
 
     }
 
