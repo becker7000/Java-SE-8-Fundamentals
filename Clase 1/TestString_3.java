@@ -7,7 +7,7 @@ public class TestString_3 {
 
         System.out.println("\n\t Las cadenas son iguales? " +
                 "R: "+cadena.equals(cadena2));
-        
+
     }
 
 }
