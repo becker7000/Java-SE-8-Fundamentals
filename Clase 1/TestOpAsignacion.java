@@ -11,6 +11,7 @@ public class TestOpAsignacion {
         ahorro*=2;
 
         System.out.printf("\n\t Ahorro: %d",ahorro);
+
     }
 
 }
