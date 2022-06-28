@@ -32,8 +32,9 @@ public class OrdenarLista {
                     indice=i;
                 }
             }
-            listaFinal.add(menor);
-            lista.remove(lista.get(indice));
+
+            listaFinal.add(menor); //Agregamos a lista
+            lista.remove(lista.get(indice)); //Eliminamos un elemento de la lista
 
         }
 
