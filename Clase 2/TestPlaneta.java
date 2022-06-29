@@ -13,6 +13,11 @@ public class TestPlaneta {
         p2.mostrarPlaneta();
         p3.mostrarPlaneta();
 
+        // El setter reajusta un valor
+        p1.setNombre("Marte");
+        // El getter nos muestra un valor
+        System.out.println("\n\t Nuevo nombre: "+p1.getNombre());
+
     }
 
 }
