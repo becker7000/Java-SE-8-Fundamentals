@@ -3,7 +3,7 @@ public class Doctor extends Usuario {
     private String especialidad;
 
     public Doctor(String nombre, int edad, String especialidad) {
-        super(nombre, edad); // hace referencia a la superclase
+        super(nombre,edad); // hace referencia a la superclase
         this.especialidad = especialidad; // hace referencia a esta misma clase
     }
 

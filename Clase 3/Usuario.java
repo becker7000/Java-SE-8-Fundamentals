@@ -34,3 +34,8 @@ public abstract class Usuario {
     public abstract void mostrar();
 
 }
+/*
+*   Una clase abstracta es aquella que no se va a instanciar
+*   es decir, sólo la usamos para crear otras clases hijas...
+*
+* */
